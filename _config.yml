@@ -2,7 +2,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Because Developers are Awesome"
+title: "Sharing IT Knowledge and Experience"
 title_separator: "-"
 name: &name "Maung San"
 description: &description "Sharing Knowledge."
