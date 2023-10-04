@@ -1,0 +1,171 @@
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: "en-US"
+title: "Because Developers are Awesome"
+title_separator: "-"
+name: &name "Maung San"
+description: &description "Sharing Knowledge."
+url: &url "https://maungsan.github.io"
+baseurl: ""
+repository: "maungsan/maungsan.github.io"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs: true
+words_per_minute: 200
+analytics:
+  provider: "clarity"
+  clarity:
+    project_id: "er6rxn3sjb"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "maungsan-github-io"
+atom_feed:
+  path: # blank (default) uses feed.xml
+search: true
+search_full_content: true
+search_provider: lunr
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
+google:
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
+# SEO Related
+google_site_verification:
+bing_site_verification: "D01FF6B3623A96D5126B51DC35788807"
+yandex_site_verification:
+naver_site_verification:
+
+twitter:
+  username: &twitter maungsan
+
+author:
+  name: *name
+  avatar: "/assets/images/maungsan.png"
+  bio: "Architect/DevOps Engineer/Fullstack Developer"
+  location: "Lake Mary, FL"
+  email: "msan001@live.com"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://maungsan.github.io"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-square-reddit"
+      url: "https://www.reddit.com/user/maungsan/submitted/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maungsan"
+
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "msan001@live.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: *url
+    - label: "Reddit"
+      icon: "fab fa-fw fa-square-reddit"
+      url: "https://www.reddit.com/user/photoadrian/submitted/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maungsan"
+
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "UTF-8"
+markdown_ext: "md"
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: pretty
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: "US/Pacific"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      toc: true
+      comments: true
+      share: true
+      related: true
