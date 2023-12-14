@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Emissary-Ingress in Your Kubernetes Cluster: A Fun and Easy Guide
+title: "Setting Up Emissary-Ingress in Your Kubernetes Cluster: A Fun and Easy Guide"
 categories:
   - Kubernetes
 tags:
