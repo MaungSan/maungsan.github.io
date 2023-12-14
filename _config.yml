@@ -15,11 +15,11 @@ words_per_minute: 200
 analytics:
   provider: "clarity"
   clarity:
-    project_id: "er6rxn3sjb"
+    project_id: "k5wdvos9xh"
 comments:
   provider: "disqus"
   disqus:
-    shortname: "maungsan-github-io"
+    shortname: "https-maungsan-github-io"
 atom_feed:
   path: # blank (default) uses feed.xml
 search: true
