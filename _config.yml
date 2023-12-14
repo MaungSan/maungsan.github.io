@@ -34,8 +34,8 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification:
-bing_site_verification: "D01FF6B3623A96D5126B51DC35788807"
+google_site_verification: "OAZluxgQJa_gS6lPQ_8VfTe4GA2Cf5F2zCGb9GNjslM"
+bing_site_verification: "BD81BEAA4ACCF45ACB1734299DE4B065"
 yandex_site_verification:
 naver_site_verification:
 
@@ -54,7 +54,7 @@ author:
       url: "https://maungsan.github.io"
     - label: "Reddit"
       icon: "fab fa-fw fa-square-reddit"
-      url: "https://www.reddit.com/user/maungsan/submitted/"
+      url: "https://www.reddit.com/user/maung-san/submitted/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maungsan"
