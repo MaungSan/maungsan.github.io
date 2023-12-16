@@ -56,8 +56,8 @@ Time to play with the hosts file to make your local DNS play nice with Kubernete
 Let's get your app into the Kubernetes playground!
 
 - **📄 Create Kubernetes Manifests**: Whip up some YAML files for your deployment and service. Here's a sample to get you started:
-```yaml
 
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -77,7 +77,6 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
-
 ---
 apiVersion: v1
 kind: Service
@@ -97,8 +96,8 @@ spec:
 We need some rules to tell NGINX how to route that traffic.
 
 - **📃 Define Ingress Rules**: Craft an Ingress YAML that looks something like this:
-```yaml
   
+```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -115,13 +114,13 @@ spec:
             name: my-app-service
             port:
               number: 80
-
 ```
 
 ### ✅ **Step 7: Apply Your Configuration**
 Almost there! Let's make Kubernetes aware of your grand plans.
 
-- **🔧 Apply with kubectl**: Run these:
+- **🔧 Apply with kubectl**: Run these
+
 ```bash
   kubectl apply -f <your-deployment.yaml>
   kubectl apply -f <your-ingress.yaml>
