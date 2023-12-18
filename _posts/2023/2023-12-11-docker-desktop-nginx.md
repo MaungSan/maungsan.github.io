@@ -1,12 +1,10 @@
 ---
 title: "Setting Up Kubernetes Locally with K3d "
 categories:
-  - Kubernetes Tutorials
+  - Kubernetes
   - Local Development Environments
-  - K3d
 tags:
   - Docker Desktop
-  - Kubernetes
   - DevOps Tools
   - Tutorial
   - Local k8s cluster

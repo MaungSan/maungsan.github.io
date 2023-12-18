@@ -9,7 +9,6 @@ categories:
   - Automation Tools
 
 tags:
-  - ArgoCD
   - Kubernetes Deployments
   - SyncWaves
   - Kubernetes Automation
