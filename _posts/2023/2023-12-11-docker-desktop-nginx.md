@@ -1,19 +1,15 @@
 ---
-title: "Setting Up Kubernetes Locally with Docker Desktop and NGINX "
+title: "Setting Up Kubernetes Locally with K3d "
 categories:
   - Kubernetes Tutorials
-  - DevOps Practices
   - Local Development Environments
+  - K3d
 tags:
   - Docker Desktop
   - Kubernetes
-  - NGINX Ingress
-  - Networking
-  - Helm
-  - YAML Configuration
   - DevOps Tools
-  - Ingress Controllers
   - Tutorial
+  - Local k8s cluster
 ---
 
 
